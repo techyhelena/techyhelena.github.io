@@ -1,0 +1,255 @@
+
+/* Header */
+.homePage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+.homePage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* filter: brightness(40%); */
+}
+
+.hero-home {
+    position: relative;
+    margin: 0.625rem;
+    background-color: #FFEBE9;
+    padding: 7%;
+    border-radius: 30px;
+    opacity: 50%;
+}
+  
+.homePage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+  
+.home-title {
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 3px 0px #e7e5e5;
+    /* text-shadow: 2px 2px 8px #636363; */
+    /* font-weight: bolder; */
+    margin-bottom: 0;
+  
+}
+  
+.home-subtitle {
+    font-family: 'Maven Pro', sans-serif;    
+    /* margin-top: 1rem; */
+}
+
+/* Button for the header */
+.btn-warning {
+    margin-top: 7px;
+    background: #F08080 !important;
+    border-color: #F0D1CE !important;
+    color: white !important;
+    font-family: 'Maven Pro', sans-serif !important;
+    border-radius: 8px !important;
+}
+
+/* button hover effect */
+.btn-warning:hover {
+    background-color: #CC444B !important;
+    color: white !important;
+}
+
+
+header {
+    text-align: center;
+    font-size: 25px;
+    padding:20px;
+}
+  
+
+
+nav {
+    background-color: #FFDAB9;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Fredoka One', cursive;    
+    margin: 0 30px;  /* 0 refers to top and bottom  // 30 refers to left and right */
+    padding: 0;
+    color: black !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+nav ul a:hover {
+    opacity: 1;
+    background-color: #F4978E;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+  
+
+body, ul {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+/* to remove scrollbar but keep the functionality */
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+header {
+    top: 110px;
+    position: relative;
+}
+
+/* gradient */
+.gradient {
+    display: inline-flex;
+    /* transition: opacity 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; */
+    /* margin-top: -5px; */
+    width: 100%;
+    height: 75px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(218,187,182);
+    background: linear-gradient(180deg, rgba(218,187,182,1) 0%, rgba(221,191,177,1) 35%, rgba(204,184,166,0.4290091036414566) 100%);
+
+}
+
+/* about me section */
+.aboutHeading {
+    font-family: 'Fredoka One', cursive; 
+    margin-top: 10rem;
+    margin-bottom: 30px;
+}
+
+.aboutPicture {
+    height: 40%;
+}
+
+.aboutCaption {
+    text-align: left;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.aboutSummary {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    /* max-width: 75%; */
+    margin-top: 50px;
+    margin-right: 10px;
+
+}
+
+/* rectangle to seperate sections */
+.rectangle {
+    margin-top: 10rem;
+    padding: 10rem;
+    height: 90px;
+    width: 100%;
+    background-color: #F0D1CE;
+}
+
+
+/* project section */
+.projectHead {
+    margin-top: 10rem; 
+    margin-bottom: 30px;
+    font-family: 'Fredoka One', cursive;    
+    
+}
+
+
+a {
+  color: white !important;
+
+}
+
+.projectCaption {
+    font-family: 'Maven Pro', sans-serif; 
+    text-shadow: 0 0 10px black;
+}
+
+.carousel {
+    margin-bottom: 30rem;
+}
+
+/* footer aka contact section */
+social-icons-container {
+    text-align: center;
+    /* font-size: 10px; */
+    background-repeat: no-repeat;
+    
+    height: 100%;
+    line-height: 100%;
+}
+
+footer {
+    background-color: #FFDAB9;
+    padding: 30px 0;
+    min-height: 220px;
+    display: flex;
+    text-align: center;
+    background-image: url(img/icons/contact\ me.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* .emailIcon {
+    height: 60px;
+} */
+
+.linkedIcon {
+    height: 80px;
+    padding: 5px;
+    margin: 10px; 
+}
+
+.emailIcon {
+    fill: white !important;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footerCaption {
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 20px;
+}
