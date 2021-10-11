@@ -210,6 +210,17 @@ a {
     margin-bottom: 30rem;
 }
 
+.firstApp {
+    display: flex;
+    justify-content: center;
+}
+
+.createTask {
+    width: 392px; 
+    height: 620px; 
+    border: 0px;
+}
+
 /* footer aka contact section */
 social-icons-container {
     text-align: center;
