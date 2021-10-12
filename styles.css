@@ -210,11 +210,6 @@ a {
     margin-bottom: 30rem;
 }
 
-.firstApp {
-    display: flex;
-    justify-content: center;
-}
-
 .createTask {
     width: 392px; 
     height: 620px; 
